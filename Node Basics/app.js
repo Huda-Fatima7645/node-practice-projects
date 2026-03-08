@@ -18,7 +18,7 @@ const server = http.createServer(routes);
 
 // we can listen on a port to start the server
 server.listen(3000, () => {
-  console.log("Server is running on http://localhost:3000");
+  console.log("Server is running on http://localhost:8080");
   // process.exit(); // to stop the server after it starts
 });
 

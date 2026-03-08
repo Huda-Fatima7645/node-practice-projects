@@ -13,6 +13,7 @@ const routes = (req, res) => {
     res.write("<head><title>Home Page</title></head>");
     res.write("<body>");
     res.write("<h1>Welcome to the Home Page</h1>");
+    res.write("<h2>Enter your details</h2>");
     res.write('<form action="/submit" method="post">');
     res.write('<input type="text" name="name" placeholder="Enter your name">');
     res.write('<button type="submit">Submit</button>');
