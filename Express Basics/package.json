@@ -1,0 +1,29 @@
+{
+  "name": "practice-projects",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Huda-Fatima7645/node-practice-projects#readme",
+  "bugs": {
+    "url": "https://github.com/Huda-Fatima7645/node-practice-projects/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huda-Fatima7645/node-practice-projects.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1"
+  }
+}
